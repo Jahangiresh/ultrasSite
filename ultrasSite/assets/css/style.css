@@ -1,0 +1,79 @@
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  
+}
+button{
+    color: white;
+    background-color: transparent;
+    border-radius: 26px;
+   padding: 15px;
+   width: 4cm;
+   transition: 0.3s linear;  
+   border: none
+}
+a{
+    color: white;
+    background-color: transparent;
+    border-radius: 26px;
+   padding: 12px;
+   width: 4cm;
+   transition: 0.3s linear;  
+   border: none;
+   text-decoration: none;
+}
+
+
+button:hover{
+    background-color: greenyellow;
+    color: blue
+}
+.content{
+    position: relative;
+    text-align: center;
+    margin-top: 10cm;
+    
+}
+.content1{
+    color: white;
+    position: absolute;
+  top: 8px;
+  right: 16px;
+ padding: 20px;
+ font-size: 20px;
+ border-radius: 50%;
+}
+
+form{
+    color: transparent;
+    position: absolute;
+  top: 8px;
+  left: 16px;
+ padding: 20px;
+ font-size: 20px;
+ border: none;
+ border-radius: 50%;
+ 
+}
+select{
+    border: none;
+    background-color: transparent;
+    color: white
+}
+h1{
+    font-size: 90px;
+    color: white;
+    transition: 0.3s linear
+}
+h1:hover{
+    padding-top: 2cm;
+}
+p{
+   
+    color: white;
+    font-size: 20px;
+   
+}

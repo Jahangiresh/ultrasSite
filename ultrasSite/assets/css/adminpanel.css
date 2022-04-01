@@ -1,0 +1,87 @@
+body{
+    width: 100%;
+    position: absolute;
+}
+img{
+   width: 100%;
+   position: absolute;
+}
+button{
+
+    background-color: transparent;
+    color: black;
+    border-radius: 18px;
+    border:none;
+    bottom: 8px;
+    top: 49%;
+    padding: 16px;
+    margin-top: 3%;
+    transition: 0.3s linear;
+    
+}
+button:hover{
+    background-color: brown;
+}
+
+.panel{
+    margin-top: 50%;
+    position: relative;
+    background-color: white;
+    height: 600px;
+  width: 30%;
+  box-shadow: greenyellow 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, greenyellow 0px 4px 6px, greenyellow 0px 12px 13px, greenyellow 0px -3px 5px;
+  border-radius: 9%;
+  padding: 30px;
+  
+
+}
+.panel img{
+    width: 230px;
+   position: relative;
+}
+.salam{
+    margin-top: 4%; 
+}
+
+
+    
+
+label[for="checkbox"]{
+    margin-right: 45%
+}
+
+input[type="text"],input[type="password"]{
+    width: 60%;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: white 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border: none;
+    padding: 20px;
+    transition: 0.3s linear;
+  
+}
+
+
+input:hover{
+   padding-right: 30%;
+
+}
+a[href="adminpanel.html"]{
+   
+    display: block;
+    padding: 16px;
+    background-color: green;
+    color:white;
+    width: 60%;
+    height: 20px;
+    border-radius: 10px;
+    transition: 0.3s linear;
+text-decoration: none;
+    
+}
+a:hover{
+   
+    background-color: white;
+    color: blue
+}
+
